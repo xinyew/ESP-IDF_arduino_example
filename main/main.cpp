@@ -28,9 +28,9 @@ void writeBlues()
 {
   for (uint16_t i = 0; i < DEV_LED_COUNT; i++)
   {
-    colors[i].red = 20;
-    colors[i].green = 10;
-    colors[i].blue = 10;
+    colors[i].red = 30;
+    colors[i].green = ;
+    colors[i].blue = ;
   }
   ledStrip.write(colors, DEV_LED_COUNT, 5);
 }
