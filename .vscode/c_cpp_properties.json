@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "ESP-IDF_arduino_example",
+      "compileCommands":"${config:cmake.buildDirectory}/compile_commands.json",
+      "configurationProvider": "ms-vscode:cmake-tools",
+      "compilerPath": "${env:IDF_TOOLS_PATH}/tools/riscv32-esp-elf/esp-12.2.0_20230208/riscv32-esp-elf/bin/riscv32-esp-elf-gcc"
+    }
+  ],
+  "version": 4
+}

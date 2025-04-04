@@ -22,7 +22,7 @@
 
 //Constants
 const int buttonDebounceTimeMS = 15;
-const int buttonSleepTimeMS = 5000;
+const int buttonSleepTimeMS = 2000;
 
 const int pause_button = 0;
 
